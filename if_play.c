@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	
+	printf("Enter grade:");
+	scanf("%d, &grade");
+	if("grade%3 == 0"){
+		printf("Pogi");
+	}	
+	if("grade%5 == 0"){
+		printf("Ed");
+	}
+}
